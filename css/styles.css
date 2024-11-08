@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.containers {
+    background-color: #674baf;
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.first-container {
+
+    width: 800px;
+}
+
+.image-1 {
+    margin-bottom: 50px;
+    width: 200px;
+}
+
+.image-2 {
+    margin-bottom: 50px;
+    width: 700px;
+}
+
+.second-container {
+    width: 400px;
+    margin: auto 200px auto 0;
+    height: 300px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: "Open sans", sans-serif;
+    width: 460px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.register {
+    font-family: "Open sans", sans-serif;
+   
+    background-color: white;
+    padding: 15px 50px;
+    color: #674baf;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.register:hover {
+    background-color:  hsl(300, 69%, 71%);
+    color: white;
+    box-shadow: 5px 5px 5px #00000060;
+}
+
+.icons {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.fa {
+    border: 1px solid;
+    height: 20px;
+    width: 40px;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-1 {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa:hover {
+    color: #e882e8;
+}
